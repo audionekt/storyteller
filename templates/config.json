@@ -1,0 +1,20 @@
+{
+  "framework": "react",
+  "storybook_version": "8",
+  "story_format": "csf3",
+  "doc_format": "mdx",
+  "story_suffix": ".stories.tsx",
+  "doc_suffix": ".mdx",
+  "managed_marker": "@storyteller-managed",
+  "include_patterns": [
+    "src/components/**/*.tsx",
+    "src/ui/**/*.tsx"
+  ],
+  "exclude_patterns": [
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/*.stories.*",
+    "**/index.ts",
+    "**/index.tsx"
+  ]
+}

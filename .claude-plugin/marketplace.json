@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "storyteller",
+  "version": "0.1.0",
+  "description": "Automatically generate and maintain Storybook stories and component documentation from React source code",
+  "owner": {
+    "name": "Arun Ravishankar"
+  },
+  "plugins": [
+    {
+      "name": "storyteller",
+      "description": "Generate and maintain Storybook stories and MDX docs from React components",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

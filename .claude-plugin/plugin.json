@@ -1,0 +1,26 @@
+{
+  "name": "storyteller",
+  "description": "Automatically generate and maintain Storybook stories and component documentation from React source code.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Arun Ravishankar"
+  },
+  "repository": "https://github.com/arunravishankar/storyteller",
+  "license": "MIT",
+  "keywords": [
+    "storybook",
+    "react",
+    "documentation",
+    "stories",
+    "components",
+    "codegen"
+  ],
+  "commands": [
+    "./skills/scan/scan.md",
+    "./skills/generate/generate.md",
+    "./skills/sync/sync.md",
+    "./skills/docs/docs.md",
+    "./skills/audit/audit.md",
+    "./skills/help/help.md"
+  ]
+}
